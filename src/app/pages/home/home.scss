@@ -1,0 +1,35 @@
+.bigtitle{
+    @include desde(web){
+        font-size: 2.5em;
+    }
+}
+.container{
+    @include hasta(tablet){
+        @include flexboxgrid('.item' , 1);
+    }
+    @include desde (tablet){
+        @include flexboxgrid('.item' , 3);  
+    }
+}
+
+.item{
+    @include hasta(movil){
+        width: 100%;
+    }
+    img{
+        display: block;
+    }
+}
+
+.display{
+    @include hasta(tablet){
+        visibility: hidden
+    }
+}
+
+.img-h{
+    img{
+        width: 750px;
+        height: 250px;
+    }
+}

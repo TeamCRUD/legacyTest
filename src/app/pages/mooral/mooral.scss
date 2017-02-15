@@ -1,0 +1,43 @@
+.c-m{
+    @include desde(tablet){
+        @include flexboxgrid('.i-m',4);
+    }
+}
+.cont-m{
+   @include flexboxgrid('.item-m' , 4);
+}
+
+.img-more{
+    img{
+        width: 250;
+        height: 200;
+    }
+
+}
+
+.img-cover{
+    img{
+        width: 670px;
+        height: 350px;    
+    }
+}
+
+.img-r{
+    @include desde(tablet){
+        img{
+            width: 200px;
+            height: 200px
+        }
+    }
+}
+
+.s2{
+    input{
+        padding: 1em;
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+    .label2{
+        margin-right: 20px; 
+    }
+}

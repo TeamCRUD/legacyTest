@@ -1,0 +1,25 @@
+.banner-v{
+    img{
+        width: 100%;
+        height: 350px
+    }
+}
+
+.c-v{
+    @include hasta(tablet){
+       height: 50%
+    }
+
+    @include desde(tablet){
+        @include flexboxgrid('.i-v', 5);
+        img{
+            width: 100%;
+            height: 140px
+        }
+
+        video,iframe{
+            width: 228px;
+            height: 140px
+        }
+    }   
+}

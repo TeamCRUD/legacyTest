@@ -1,0 +1,41 @@
+{
+  "name": "proschool",
+  "version": "2.0.1",
+  "description": "Proschool APP",
+  "private": true,
+  "main": "start.js",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node --use_strict start.js"
+  },
+  "author": "Jair Perez Oquendo <jair.perez@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.6",
+    "@angular/compiler": "2.0.0-rc.6",
+    "@angular/core": "2.0.0-rc.6",
+    "@angular/forms": "2.0.0-rc.6",
+    "@angular/http": "2.0.0-rc.6",
+    "@angular/platform-browser": "2.0.0-rc.6",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.6",
+    "@angular/router": "3.0.0-rc.2",
+    "@angular/upgrade": "2.0.0-rc.6",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^4.0.0-alpha.3",
+    "compression": "^1.6.2",
+    "core-js": "^2.4.1",
+    "cors": "^2.8.0",
+    "ed-grid": "^2.1.0",
+    "express": "^4.14.0",
+    "font-awesome": "^4.6.3",
+    "helmet": "^2.1.3",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.5.10",
+    "morgan": "^1.7.0",
+    "rxjs": "5.0.0-beta.11",
+    "tether": "^1.3.6",
+    "zone.js": "^0.6.17"
+  },
+  "devDependencies": {
+  }
+}
