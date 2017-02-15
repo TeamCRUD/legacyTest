@@ -5,8 +5,7 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "prestart": "webpack",
-    "start": "node --use_strict start.js"
+    "start": "node --use_strict src/server/config/express.js"
   },
   "author": "Jair Perez Oquendo <jair.perez@outlook.com>",
   "license": "ISC",

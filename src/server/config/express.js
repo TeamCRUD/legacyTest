@@ -32,9 +32,7 @@ app.get('/*', (req, res) => {
 
 // Listen =============================
 var env = process.env;
-app.listen(env.NODE_PORT || 3000, env.NODE_IP || 'localhost', () =>{
-  console.log(`Application worker ${process.pid} started...`);
-});
+app.listen(3000);
 
 //App export =========================
 module.exports = app;
